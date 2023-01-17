@@ -23,9 +23,9 @@ def predict(sl,sw,pl,pw):
     return prediction
     #[prediction[0]]
 def main():
-    st.title("IRIS Prediction")
+    st.title("IRIS Prediction Test")
     html_temp = """
-    <div style="background-color:tomato;padding:10px">
+        <div style="background-color:yellow;padding:15px">
     <h2 style="color:white;text-align:center;">Streamlit IRIS Predictor </h2>
     </div>
     """
